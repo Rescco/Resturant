@@ -15,56 +15,7 @@
     <title>Document</title>
 </head>
 <style>
-    :root {
-        --background: #ecced8;
-        --main: #f45829;
-        --one: #f589e0;
-        --two: #5449f5;
-        --three: #f5e72f;
-    }
-
-    * {
-        font-family: 'Bebas Neue';
-
-    }
-
-    body {
-        background-color: #cfcfd0dc;
-    }
-
-
-
-    .nav-title {
-        color: #ecced8;
-        font-weight: 700;
-        font-size: 45px;
-        letter-spacing: 0.5rem;
-    }
-
-    .nav-title:hover {
-        color: #ecced8;
-        font-weight: 700;
-
-    }
-
-    a {
-        color: #ecced8;
-        text-decoration: none;
-        font-weight: 700;
-        font-size: 30px;
-        margin: 0 20px;
-
-    }
-
-    li a:hover {
-        color: #ecced8;
-        background-color: #202020;
-        border-radius: 7px;
-    }
-
-    li {
-        list-style: none;
-    }
+   
 </style>
 
 <body class="bg-danger">
@@ -103,27 +54,7 @@
 
     <!--HERO-->
     <style>
-        .boxOne {
-            color: #ecced8;
-            padding: 15px;
-            margin-top: 2rem;
-            border-radius: 23px;
-            letter-spacing: 2px;
-
-        }
-
-        #row {
-            max-width: 1416px;
-            max-height: 500px;
-            min-height: 400.3px;
-
-
-        }
-
-        #row {
-            background-color: #20c997b8;
-            border-radius: 13px;
-        }
+       
     </style>
     <section style="overflow: hidden;">
         <div class="container  mt-5">
@@ -205,26 +136,9 @@
         </div>
         <div class="container bg-light text-white" style="height: 2px;"><span></span></div>
         <style>
-            .row-img {
-                background-color: #ed92b167;
-                padding: 25px;
-                border-radius: 20px;
-                margin: 0 5px;
-                transition: 0.3s ease-in-out;
-                overflow: hidden;
-
-            }
-
-
-            .row-img:hover {
-                transform: scale(1.1, 1.1);
-                transition: 0.3s ease-in-out;
-
-            }
-
-            .btn-order {
-                display: none;
-            }
+     .btn-order {
+        display: none;
+    }
         </style>
         <div class="mt-5">
             <div class="hehe ">
@@ -330,38 +244,7 @@
             <h1 class="display-2">OUR MENU </h1>
         </div>
         <div class="container bg-light text-white" style="height: 2px;"><span></span></div>
-        <script>
-            let slider = document.getElementById('slider');
-            let item = slider.getElementsByClassName('row-img');
-            let btn = document.getElementsByClassName('btn-order');
-
-
-
-
-            function next() {
-                slider.append(item[0]);
-
-                for (let i = 0; i < btn.length; i++) {
-                    if (i == 2) {
-                        btn[i].style.display = 'block';
-                    } else {
-                        btn[i].style.display = 'none';
-                    }
-                }
-
-            }
-            function prev() {
-                slider.prepend(item[item.length - 1]);
-
-                for (let i = 0; i < btn.length; i++) {
-                    if (i == 2) {
-                        btn[i].style.display = 'block';
-                    } else {
-                        btn[i].style.display = 'none';
-                    }
-                }
-
-            }
+     
         </script>
         <section>
             <div class="container-fluid ">
