@@ -32,14 +32,12 @@
         background-color: #cfcfd0dc;
     }
 
-    nav {
-        padding: 30px;
-    }
+
 
     .nav-title {
         color: #ecced8;
         font-weight: 700;
-        font-size: 55px;
+        font-size: 45px;
         letter-spacing: 0.5rem;
     }
 
@@ -54,7 +52,6 @@
         text-decoration: none;
         font-weight: 700;
         font-size: 30px;
-        padding: 10px;
         margin: 0 20px;
 
     }
@@ -128,36 +125,36 @@
             border-radius: 13px;
         }
     </style>
-    <section style="overflow: hidden;" >
-    <div class="container  mt-5">
-        <div id="row"
-            class="row  shadow-lg m-5  d-flex  justify-content-center align-content-center align-items-center  ">
+    <section style="overflow: hidden;">
+        <div class="container  mt-5">
+            <div id="row"
+                class="row  shadow-lg m-5  d-flex  justify-content-center align-content-center align-items-center  ">
 
-            <div class="col-md-6 col-sm-12">
-                <div class="imgBox">
-                    <div id="carouselExampleIndicators " class="carousel slide " data-bs-ride="carousel">
-                        <div class="carousel-indicators d-none">
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                                class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                                aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                                aria-label="Slide 3"></button>
-                        </div>
-                        <div class="carousel-inner ">
-                            <div class="carousel-item active p-3 ">
-                                <img class=" imgOne img-fluid " style="height:178.25px" src="img1.svg" alt="">
+                <div class="col-md-6 col-sm-12">
+                    <div class="imgBox">
+                        <div id="carouselExampleIndicators " class="carousel slide " data-bs-ride="carousel">
+                            <div class="carousel-indicators d-none">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
                             </div>
-                            <!-- <div class="carousel-item p-3 ">
+                            <div class="carousel-inner ">
+                                <div class="carousel-item active p-3 ">
+                                    <img class=" imgOne img-fluid " style="height:178.25px" src="img1.svg" alt="">
+                                </div>
+                                <!-- <div class="carousel-item p-3 ">
                                 <img   class=" imgTwo img-fluid " src="img2.svg" alt="">
                             </div> -->
-                            <div class="carousel-item p-3 ">
-                                <img src="img3.svg" style="height:178.25px" class=" img-fluid imgOne" alt="...">
+                                <div class="carousel-item p-3 ">
+                                    <img src="img3.svg" style="height:178.25px" class=" img-fluid imgOne" alt="...">
+                                </div>
+
                             </div>
 
-                        </div>
-
-                        <!-- <button class="carousel-control-prev" type="button"
+                            <!-- <button class="carousel-control-prev" type="button"
                                              data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                              <span class="visually-hidden">Previous</span>
@@ -167,38 +164,37 @@
                                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                              <span class="visually-hidden">Next</span>
                                          </button>  -->
+                        </div>
+
                     </div>
 
+                    <style>
+                        .imgOne {
+                            animation-name: img;
+                            animation-duration: 2s;
+                        }
+                    </style>
+
                 </div>
-
-                <style>
-                    .imgOne {
-                        animation-name: img;
-                        animation-duration: 2s;
-                    }
-                   
-                </style>
-
-            </div>
-            <div class="col-md-6 col-sm-12  d-flex flex-column  justify-content-center  ">
-                <div class="boxOne  ">
-                    <h1 class="display-1 text-center">RESCCO </h1>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam ex praesentium alias nesciunt,
-                        quasi autem.
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam ex praesentium alias nesciunt,
-                        quasi autem.
+                <div class="col-md-6 col-sm-12  d-flex flex-column  justify-content-center  ">
+                    <div class="boxOne  ">
+                        <h1 class="display-1 text-center">RESCCO </h1>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam ex praesentium alias nesciunt,
+                            quasi autem.
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam ex praesentium alias nesciunt,
+                            quasi autem.
 
 
-                    </p>
+                        </p>
+                    </div>
+
+
                 </div>
-
 
             </div>
 
         </div>
-
-    </div>
     </section>
     <!-------------------------------------------------------------------------------------------------------------->
     <div>
@@ -215,21 +211,20 @@
                 border-radius: 20px;
                 margin: 0 5px;
                 transition: 0.3s ease-in-out;
+                overflow: hidden;
+
             }
 
 
             .row-img:hover {
                 transform: scale(1.1, 1.1);
                 transition: 0.3s ease-in-out;
-                overflow: hidden;
 
             }
 
             .btn-order {
                 display: none;
             }
-
-           
         </style>
         <div class="mt-5">
             <div class="hehe ">
@@ -273,119 +268,119 @@
                         <button class="badge bg-warning text-black p-2 btn-order">Order Now</button>
                     </div>
                 </div> -->
-            
-                    <div class="d-flex justify-content-center  align-items-center my-4" style="color: #eadbe0;" id="slider">
-                        <div class="row-img shadow-lg p-4 d-flex flex-column justify-content-center align-items-center ">
-                            <img width="40px" height="40px" src="sandwich-burger.svg" alt="">
-                            <h6 class="mt-2 text-center  ">Burger</h6>
-                            <button class="badge bg-warning text-black p-2 btn-order">Order Now</button>
-                        </div>
-                        <div class="row-img shadow-lg p-4 d-flex flex-column justify-content-center align-items-center">
-                            <img width="40px" height="40px" src="tropical-fish.svg" alt="">
-                            <h6 class="mt-2 text-center ">Fishes</h6>
-                
-                            <button class="badge bg-warning text-black p-2 btn-order">Order Now</button>
-                        </div>
-                        <div class="row-img shadow-lg p-4 d-flex flex-column justify-content-center align-items-center">
-                            <img class="" width="40px" height="40px" src="pot-of-food.svg" alt="">
-                            <h6 class="mt-2 text-center ">Soup</h6>
-                
-                            <button class="badge bg-warning text-black p-2 btn-order" style="display: block;">Order
-                                Now</button>
-                        </div>
-                        <div class="row-img shadow-lg p-4 d-flex flex-column justify-content-center align-items-center">
-                            <img width="40px" height="40px" src="shallow-pan-of-food.svg" alt="">
-                            <h6 class="mt-2 text-center ">Pizza</h6>
-                
-                            <button class="badge bg-warning text-black p-2 btn-order">Order Now</button>
-                        </div>
-                        <div class="row-img shadow-lg p-4 d-flex flex-column justify-content-center align-items-center">
-                            <img width="40px" height="40px" src="coffee-cup-drink-coffee.svg" alt="">
-                            <h6 class="mt-2 text-center ">Coffee</h6>
-                
-                            <button class="badge bg-warning text-black p-2 btn-order">Order Now</button>
-                        </div>
+
+                <div class="d-flex justify-content-center  align-items-center my-4" style="color: #eadbe0;" id="slider">
+                    <div class="row-img shadow-lg p-4 d-flex flex-column justify-content-center align-items-center ">
+                        <img width="40px" height="40px" src="sandwich-burger.svg" alt="">
+                        <h6 class="mt-2 text-center  ">Burger</h6>
+                        <button class="badge bg-warning text-black p-2 btn-order">Order Now</button>
                     </div>
-                
-                
-                
-         
+                    <div class="row-img shadow-lg p-4 d-flex flex-column justify-content-center align-items-center">
+                        <img width="40px" height="40px" src="tropical-fish.svg" alt="">
+                        <h6 class="mt-2 text-center ">Fishes</h6>
 
+                        <button class="badge bg-warning text-black p-2 btn-order">Order Now</button>
+                    </div>
+                    <div class="row-img shadow-lg p-4 d-flex flex-column justify-content-center align-items-center">
+                        <img class="" width="40px" height="40px" src="pot-of-food.svg" alt="">
+                        <h6 class="mt-2 text-center ">Soup</h6>
 
-            <div class="d-flex justify-content-center"> 
-                <a class="btn" onclick="prev()"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
-                        fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd"
-                            d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
-                    </svg></a>
-                <a class="btn " onclick="next()"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
-                        fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd"
-                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
-                    </svg></a>
-               
-            </div>
+                        <button class="badge bg-warning text-black p-2 btn-order" style="display: block;">Order
+                            Now</button>
+                    </div>
+                    <div class="row-img shadow-lg p-4 d-flex flex-column justify-content-center align-items-center">
+                        <img width="40px" height="40px" src="shallow-pan-of-food.svg" alt="">
+                        <h6 class="mt-2 text-center ">Pizza</h6>
 
-        </div>
+                        <button class="badge bg-warning text-black p-2 btn-order">Order Now</button>
+                    </div>
+                    <div class="row-img shadow-lg p-4 d-flex flex-column justify-content-center align-items-center">
+                        <img width="40px" height="40px" src="coffee-cup-drink-coffee.svg" alt="">
+                        <h6 class="mt-2 text-center ">Coffee</h6>
 
-    </div>
-    <div class="container bg-light text-white" style="height: 2px;"><span></span></div>
-
-    <div class="container text-center display-1 my-2 menu-bar " style="color: #ecced8;">
-        <h1 class="display-2">OUR MENU </h1>
-    </div>
-    <div class="container bg-light text-white" style="height: 2px;"><span></span></div>
-    <script>
-        let slider = document.getElementById('slider');
-        let item = slider.getElementsByClassName('row-img');
-        let btn = document.getElementsByClassName('btn-order');
-
-
-
-
-        function next() {
-            slider.append(item[0]);
-
-            for (let i = 0; i < btn.length; i++) {
-                if (i == 2) {
-                    btn[i].style.display = 'block';
-                } else {
-                    btn[i].style.display = 'none';
-                }
-            }
-
-        }
-        function prev() {
-            slider.prepend(item[item.length - 1]);
-
-            for (let i = 0; i < btn.length; i++) {
-                if (i == 2) {
-                    btn[i].style.display = 'block';
-                } else {
-                    btn[i].style.display = 'none';
-                }
-            }
-
-        }
-    </script>
-    <section>
-        <div class="container-fluid ">
-            <div class="row mx-3">
-                <div class="col-md-4 ">
-
-                    <h1 class="display-5 text-center ">
-
-
-                    </h1>
-                    <img src="" alt="">
+                        <button class="badge bg-warning text-black p-2 btn-order">Order Now</button>
+                    </div>
                 </div>
-                <div class="col-md-4"></div>
-                <div class="col-md-4"></div>
+
+
+
+
+
+
+                <div class="d-flex justify-content-center">
+                    <a class="" onclick="prev()"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                            fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                        </svg></a>
+                    <a class=" " onclick="next()"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                            fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                        </svg></a>
+
+                </div>
+
             </div>
+
         </div>
-    </section>
-    <script src="main.js"></script>
-    <script src="bootstrap.bundle.min.js"></script>
+        <div class="container bg-light text-white" style="height: 2px;"><span></span></div>
+
+        <div class="container text-center display-1 my-2 menu-bar " style="color: #ecced8;">
+            <h1 class="display-2">OUR MENU </h1>
+        </div>
+        <div class="container bg-light text-white" style="height: 2px;"><span></span></div>
+        <script>
+            let slider = document.getElementById('slider');
+            let item = slider.getElementsByClassName('row-img');
+            let btn = document.getElementsByClassName('btn-order');
+
+
+
+
+            function next() {
+                slider.append(item[0]);
+
+                for (let i = 0; i < btn.length; i++) {
+                    if (i == 2) {
+                        btn[i].style.display = 'block';
+                    } else {
+                        btn[i].style.display = 'none';
+                    }
+                }
+
+            }
+            function prev() {
+                slider.prepend(item[item.length - 1]);
+
+                for (let i = 0; i < btn.length; i++) {
+                    if (i == 2) {
+                        btn[i].style.display = 'block';
+                    } else {
+                        btn[i].style.display = 'none';
+                    }
+                }
+
+            }
+        </script>
+        <section>
+            <div class="container-fluid ">
+                <div class="row mx-3">
+                    <div class="col-md-4 ">
+
+                        <h1 class="display-5 text-center ">
+
+
+                        </h1>
+                        <img src="" alt="">
+                    </div>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4"></div>
+                </div>
+            </div>
+        </section>
+        <script src="main.js"></script>
+        <script src="bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
