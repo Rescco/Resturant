@@ -214,7 +214,6 @@
      }
 
 
-
      .row-img:hover {
          transform: scale(1.1, 1.1);
          transition: 0.3s ease-in-out;
@@ -229,35 +228,39 @@
          position: absolute;
 
      }
+     .hehe{
+
+     }
         </style>
         <div class="mt-5">
-            <div>
-                <div class="d-flex justify-content-center  align-items-center my-4" style="color: #eadbe0;" id="slider">
-                    <div class="row-img shadow-lg p-4 d-flex flex-column justify-content-center align-items-center ">
+            <div class="hehe">
+                <div class="row d-flex justify-content-center  align-items-center my-4" style="color: #eadbe0;" id="slider">
+                    
+                    <div class="col-3 row-img shadow-lg p-4 d-flex flex-column justify-content-center align-items-center ">
                         <img width="40px" height="40px" src="sandwich-burger.svg" alt="">
                         <h6 class="mt-2 text-center  ">Burger</h6>
-                        <button class="badge bg-warning text-black p-2 btn-order">Order Now</button>
+                        <button class="badge bg-warning text-black p-2 btn-order" >Order Now</button>
                     </div>
-                    <div class="row-img shadow-lg p-4 d-flex flex-column justify-content-center align-items-center">
+                    <div class=" col-3 row-img shadow-lg p-4 d-flex flex-column justify-content-center align-items-center">
                         <img width="40px" height="40px" src="tropical-fish.svg" alt="">
                         <h6 class="mt-2 text-center ">Fishes</h6>
 
-                        <button class="badge bg-warning text-black p-2 btn-order">Order Now</button>
+                        <button class="badge bg-warning text-black p-2 btn-order" style="display: block;">Order Now</button>
                     </div>
-                    <div class="row-img shadow-lg p-4 d-flex flex-column justify-content-center align-items-center">
+                    <div class=" col-3 row-img shadow-lg p-4 d-flex flex-column justify-content-center align-items-center">
                         <img class="" width="40px" height="40px" src="pot-of-food.svg" alt="">
                         <h6 class="mt-2 text-center ">Soup</h6>
 
-                        <button class="badge bg-warning text-black p-2 btn-order" style="display: block;">Order
+                        <button class="badge bg-warning text-black p-2 btn-order" >Order
                             Now</button>
                     </div>
-                    <div class="row-img shadow-lg p-4 d-flex flex-column justify-content-center align-items-center">
+                    <div class=" col-3 row-img shadow-lg p-4 d-flex flex-column justify-content-center align-items-center">
                         <img width="40px" height="40px" src="shallow-pan-of-food.svg" alt="">
                         <h6 class="mt-2 text-center ">Pizza</h6>
 
                         <button class="badge bg-warning text-black p-2 btn-order">Order Now</button>
                     </div>
-                    <div class="row-img shadow-lg p-4 d-flex flex-column justify-content-center align-items-center">
+                    <div class=" col-3 row-img shadow-lg p-4 d-flex flex-column justify-content-center align-items-center">
                         <img width="40px" height="40px" src="coffee-cup-drink-coffee.svg" alt="">
                         <h6 class="mt-2 text-center ">Coffee</h6>
 
@@ -297,7 +300,7 @@
             slider.append(item[0]);
 
             for (let i = 0; i < btn.length; i++) {
-                if (i == 2) {
+                if (i == 1) {
                     btn[i].style.display = 'block';
                 } else {
                     btn[i].style.display = 'none';
@@ -309,7 +312,7 @@
             slider.prepend(item[item.length - 1]);
 
             for (let i = 0; i < btn.length; i++) {
-                if (i == 2) {
+                if (i == 1) {
                     btn[i].style.display = 'block';
                 } else {
                     btn[i].style.display = 'none';
