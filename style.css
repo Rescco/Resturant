@@ -58,18 +58,7 @@
 
     }
 
-    #row {
-        max-width: 1416px;
-        max-height: 500px;
-        min-height: 400.3px;
-
-
-    }
-
-    #row {
-        background-color: #20c997b8;
-        border-radius: 13px;
-    }
+    
 
     .row-img {
         background-color: #ed92b167;
@@ -99,5 +88,5 @@
     }
 
     .baddge{
-        margin: 0 5px;
+        margin: 0 15px;
     }
